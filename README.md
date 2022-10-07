@@ -15,4 +15,4 @@ How to make it work:
     - Hard: 8 tries, 1 to 500.
     - Very Hard: 9 tries, 1 to 1000.
     
-Good luck and <b> have fu </b> :) !
+Good luck and <b> have fun </b> :) !
