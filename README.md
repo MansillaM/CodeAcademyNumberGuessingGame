@@ -9,7 +9,8 @@ Dependencies:
   
 How to make it work:
   Just run the file and follow th instructions. You have to choose a difficulty and try to guess the number that is randomly generated every time.
-  Here are the details for the different levels:
+  
+    Here are the details for the different levels:
     
     - Very Easy: Unlimited tries, 1 to 10.
     - Easy: 5 tries, 1 to 10.
