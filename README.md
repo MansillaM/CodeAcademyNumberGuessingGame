@@ -9,7 +9,7 @@ Dependencies:
   
 How to make it work:
 
-   Just run the file and follow th instructions. You have to choose a difficulty and try to guess the number that is randomly generated every time.
+   Clone the repo, run the file and follow th instructions. You have to choose a difficulty and try to guess the number that is randomly generated every time.
   
    Here are the details for the different levels:
     
