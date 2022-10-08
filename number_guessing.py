@@ -6,9 +6,9 @@ def check_answer_for_very_easy():
     if int(VEASY) == int(randomNum):
         print("You got it on very easy, not impressive.")
     elif int(VEASY) > int(randomNum):
-        print("Lower")
+        print("Number is lower")
     elif int(VEASY) < int(randomNum):
-        print("Higher")
+        print("Number is higher")
     else:
         print("Heeeeu What?")
 
@@ -17,9 +17,9 @@ def check_answer_for_easy():
     if int(EASY) == int(randomNum2):
         print("Easy mode, try a more challenging option.")
     elif int(EASY) > int(randomNum2):
-        print("Lower")
+        print("Number is lower")
     elif int(EASY) < int(randomNum2):
-        print("Higher")
+        print("Number is higher")
     else:
         print("Heeeeu What?")
 
@@ -28,9 +28,9 @@ def check_answer_for_medium():
     if int(MEDIUM) == int(randomNum3):
         print("Good job! Now try a harder difficulty.")
     elif int(MEDIUM) > int(randomNum3):
-        print("Lower")
+        print("Number is lower")
     elif int(MEDIUM) < int(randomNum3):
-        print("Higher")
+        print("Number is higher")
     else:
         print("Heeeeu What?")
 
@@ -39,9 +39,9 @@ def check_answer_for_hard():
     if int(HARD) == int(randomNum4):
         print("Wow you got it!")
     elif int(HARD) > int(randomNum4):
-        print("Lower")
+        print("Number is lower")
     elif int(HARD) < int(randomNum4):
-        print("Higher")
+        print("Number is higher")
     else:
         print("Heeeeu What?")
 
@@ -50,9 +50,9 @@ def check_answer_for_very_hard():
     if int(VERYHARD) == int(randomNum5):
         print("Incredible! You're a CHAMPION!")
     elif int(VERYHARD) > int(randomNum5):
-        print("Lower")
+        print("Number is lower")
     elif int(VERYHARD) < int(randomNum5):
-        print("Higher")
+        print("Number is higher")
     else:
         print("Heeeeu What?")
 
@@ -76,11 +76,11 @@ elif greet == "Easy":
             break
         if x == 0:
             print("You still have 4 tries left.")
-        if x == 1:
+        if x == 1 and int(EASY) != int(randomNum2):
             print("You still have 3 tries left.")
-        if x == 2:
+        if x == 2 and int(EASY) != int(randomNum2):
             print("You still have 2 tries left.")
-        if x == 3:
+        if x == 3 and int(EASY) != int(randomNum2):
             print("Last try!")
         if x == 4 and int(EASY) != int(randomNum2):
             print("It's not that hard! Try again.")
@@ -93,13 +93,13 @@ elif greet =="Medium":
             MEDIUM = input("Choose a number between 1 and 100: ")
             check_answer_for_medium()
             break
-        if x == 0:
+        if x == 0 and int(MEDIUM) != int(randomNum3):
             print("You still have 4 tries left.")
-        if x == 1:
+        if x == 1 and int(MEDIUM) != int(randomNum3):
             print("You still have 3 tries left.")
-        if x == 2:
+        if x == 2 and int(MEDIUM) != int(randomNum3):
             print("You still have 2 tries left.")
-        if x == 3:
+        if x == 3 and int(MEDIUM) != int(randomNum3):
             print("Last try!")
         if x == 4 and int(MEDIUM) != int(randomNum3):
             print("It's okay keep trying!")
@@ -114,17 +114,17 @@ elif greet == "Hard":
             break
         if x == 0:
             print("You still have 7 tries left.")
-        if x == 1:
+        if x == 1 and int(HARD) != int(randomNum4):
             print("You still have 6 tries left.")
-        if x == 2:
+        if x == 2 and int(HARD) != int(randomNum4):
             print("You still have 5 tries left.")
-        if x == 3:
+        if x == 3 and int(HARD) != int(randomNum4):
             print("You still have 4 tries left.")
-        if x == 4:
+        if x == 4 and int(HARD) != int(randomNum4):
             print("You still have 3 tries left.")
-        if x == 5:
+        if x == 5 and int(HARD) != int(randomNum4):
             print("You still have 2 tries left.")
-        if x == 6:
+        if x == 6 and int(HARD) != int(randomNum4):
             print("Last try!")
         if x == 7 and int(HARD) != int(randomNum4):
             print("Don't give up! You can do it.")
@@ -139,19 +139,19 @@ elif greet == "Very Hard":
             break
         if x == 0:
             print("You still have 8 tries left.")
-        if x == 1:
+        if x == 1 and int(VERYHARD) != int(randomNum5):
             print("You still have 7 tries left.")
-        if x == 2:
+        if x == 2 and int(VERYHARD) != int(randomNum5):
             print("You still have 6 tries left.")
-        if x == 3:
+        if x == 3 and int(VERYHARD) != int(randomNum5):
             print("You still have 5 tries left.")
-        if x == 4:
+        if x == 4 and int(VERYHARD) != int(randomNum5):
             print("You still have 4 tries left.")
-        if x == 5:
+        if x == 5 and int(VERYHARD) != int(randomNum5):
             print("You still have 3 tries left.")
-        if x == 6:
+        if x == 6 and int(VERYHARD) != int(randomNum5):
             print("You still have 2 tries left.")
-        if x == 7:
+        if x == 7 and int(VERYHARD) != int(randomNum5):
             print("Last try!")
         if x == 8 and int(VERYHARD) != int(randomNum5):
             print("This is where the real ones are built! TRY AGAIN!")
