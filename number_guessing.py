@@ -74,6 +74,14 @@ elif greet == "Easy":
             EASY = input("Choose a number between 1 and 10: ")
             check_answer_for_easy()
             break
+        if x == 0:
+            print("You still have 4 tries left.")
+        if x == 1:
+            print("You still have 3 tries left.")
+        if x == 2:
+            print("You still have 2 tries left.")
+        if x == 3:
+            print("Last try!")
         if x == 4 and int(EASY) != int(randomNum2):
             print("It's not that hard! Try again.")
 elif greet =="Medium":
@@ -85,6 +93,14 @@ elif greet =="Medium":
             MEDIUM = input("Choose a number between 1 and 100: ")
             check_answer_for_medium()
             break
+        if x == 0:
+            print("You still have 4 tries left.")
+        if x == 1:
+            print("You still have 3 tries left.")
+        if x == 2:
+            print("You still have 2 tries left.")
+        if x == 3:
+            print("Last try!")
         if x == 4 and int(MEDIUM) != int(randomNum3):
             print("It's okay keep trying!")
 elif greet == "Hard":
@@ -96,6 +112,20 @@ elif greet == "Hard":
             HARD = input("Choose a number between 1 and 500: ")
             check_answer_for_hard()
             break
+        if x == 0:
+            print("You still have 7 tries left.")
+        if x == 1:
+            print("You still have 6 tries left.")
+        if x == 2:
+            print("You still have 5 tries left.")
+        if x == 3:
+            print("You still have 4 tries left.")
+        if x == 4:
+            print("You still have 3 tries left.")
+        if x == 5:
+            print("You still have 2 tries left.")
+        if x == 6:
+            print("Last try!")
         if x == 7 and int(HARD) != int(randomNum4):
             print("Don't give up! You can do it.")
 elif greet == "Very Hard":
@@ -107,6 +137,22 @@ elif greet == "Very Hard":
             VERYHARD = input("Choose a number between 1 and 1000: ")
             check_answer_for_very_hard()
             break
+        if x == 0:
+            print("You still have 8 tries left.")
+        if x == 1:
+            print("You still have 7 tries left.")
+        if x == 2:
+            print("You still have 6 tries left.")
+        if x == 3:
+            print("You still have 5 tries left.")
+        if x == 4:
+            print("You still have 4 tries left.")
+        if x == 5:
+            print("You still have 3 tries left.")
+        if x == 6:
+            print("You still have 2 tries left.")
+        if x == 7:
+            print("Last try!")
         if x == 8 and int(VERYHARD) != int(randomNum5):
             print("This is where the real ones are built! TRY AGAIN!")
 else:
