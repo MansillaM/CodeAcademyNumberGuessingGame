@@ -1,14 +1,15 @@
 """number_guessing module."""
 import random
+import emoji
 
 def check_answer_for_very_easy():
     """Function to check answer for the VERY EASY input()"""
     if int(VEASY) == int(randomNum):
         print("You got it on very easy, not impressive.")
     elif int(VEASY) > int(randomNum):
-        print("Number is lower")
+        print(emoji.emojize("Number is lower " + "\U0001F53D"))
     elif int(VEASY) < int(randomNum):
-        print("Number is higher")
+        print(emoji.emojize("Number is higher " + "\U0001F53C"))
     else:
         print("Heeeeu What?")
 
@@ -17,9 +18,9 @@ def check_answer_for_easy():
     if int(EASY) == int(randomNum2):
         print("Easy mode, try a more challenging option.")
     elif int(EASY) > int(randomNum2):
-        print("Number is lower")
+        print(emoji.emojize("Number is lower " + "\U0001F53D"))
     elif int(EASY) < int(randomNum2):
-        print("Number is higher")
+        print(emoji.emojize("Number is higher " + "\U0001F53C"))
     else:
         print("Heeeeu What?")
 
@@ -28,9 +29,9 @@ def check_answer_for_medium():
     if int(MEDIUM) == int(randomNum3):
         print("Good job! Now try a harder difficulty.")
     elif int(MEDIUM) > int(randomNum3):
-        print("Number is lower")
+        print(emoji.emojize("Number is lower " + "\U0001F53D"))
     elif int(MEDIUM) < int(randomNum3):
-        print("Number is higher")
+        print(emoji.emojize("Number is higher " + "\U0001F53C"))
     else:
         print("Heeeeu What?")
 
@@ -39,9 +40,9 @@ def check_answer_for_hard():
     if int(HARD) == int(randomNum4):
         print("Wow you got it!")
     elif int(HARD) > int(randomNum4):
-        print("Number is lower")
+        print(emoji.emojize("Number is lower " + "\U0001F53D"))
     elif int(HARD) < int(randomNum4):
-        print("Number is higher")
+        print(emoji.emojize("Number is higher " + "\U0001F53C"))
     else:
         print("Heeeeu What?")
 
@@ -50,9 +51,9 @@ def check_answer_for_very_hard():
     if int(VERYHARD) == int(randomNum5):
         print("Incredible! You're a CHAMPION!")
     elif int(VERYHARD) > int(randomNum5):
-        print("Number is lower")
+        print(emoji.emojize("Number is lower " + "\U0001F53D"))
     elif int(VERYHARD) < int(randomNum5):
-        print("Number is higher")
+        print(emoji.emojize("Number is higher " + "\U0001F53C"))
     else:
         print("Heeeeu What?")
 
